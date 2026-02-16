@@ -19,7 +19,8 @@ with col2:
     use_example = st.button("📄 Använd exempelintyg", use_container_width=True)
 
 # URL till exempelintyg på GitHub (du måste uppdatera denna efter du pushat)
-EXAMPLE_PDF_URL = "https://raw.githubusercontent.com/DittAnvändarnamn/ml-betygsprediktor/main/Studieintyg-Exempel.pdf"
+EXAMPLE_PDF_URL = "https://raw.githubusercontent.com/Puttaren/betygsprediktion/main/Studieintyg-Exempel.pdf"
+
 
 def extract_student_name(text):
     """Extraherar studentens namn från studieintyget"""
