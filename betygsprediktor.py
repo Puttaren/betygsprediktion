@@ -2,6 +2,7 @@ import streamlit as st
 import PyPDF2
 import re
 import urllib.request
+from io import BytesIO
 
 st.set_page_config(page_title="ML Betygsprediktor", page_icon="📊")
 
