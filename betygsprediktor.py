@@ -41,6 +41,10 @@ def extract_grades_from_pdf(pdf_file):
     courses = []
     student_name = None
 
+    # Konvertera till BytesIO om det är bytes
+    if isinstance(pdf_file, bytes):
+        pdf_file = BytesIO(pdf_file)
+
     pdf_reader = PyPDF2.PdfReader(pdf_file)
 
     # Läs all text först för att hitta namn
