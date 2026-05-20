@@ -10,5 +10,5 @@ Ladda upp ditt studieintyg (PDF) och få din betygsprediktion!
 - **G**: 30-70% VG-poäng, eller balanserat mellan VG/IG
 - **IG**: >50% IG-poäng
 
-Systemet väger in både VG- och IG-procent för en nyanserad prediktion.
-En enskild IG-kurs påverkar inte prediktionen alltför negativt om övriga prestationer är starka.
+Systemet väger in både VG- och G-procent för en nyanserad prediktion.
+En enskild G-kurs påverkar inte prediktionen alltför negativt om övriga prestationer är starka.
